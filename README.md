@@ -4,11 +4,15 @@ React hooks for centralized yet serverless P2P communication. Create PeerJS-base
 
 ## Installation
 
+```bash
 npm install react-peer-rooms
+```
 
 or
 
+```bash
 yarn add react-peer-rooms
+```
 
 ## Peer Dependencies
 
