@@ -1,0 +1,60 @@
+{
+  "name": "react-peer-rooms",
+  "version": "0.5.0",
+  "description": "React hooks for centralized yet serverless P2P communication. Create PeerJS-based rooms with simple host/client components.",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
+    "format": "prettier --write 'src/**/*.{js,ts,tsx}'",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "peer-to-peer",
+    "webrtc",
+    "typescript",
+    "peerjs",
+    "real-time"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YoussefRbahi/react-peer-rooms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YoussefRbahi/react-peer-rooms/issues"
+  },
+  "homepage": "https://github.com/YoussefRbahi/react-peer-rooms#readme",
+  "author": "Youssef Rbahi",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "peerDependencies": {
+    "peerjs": "^1.5.4",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/peerjs": "^1.1.0",
+    "@types/react": "^18.0.28",
+    "@typescript-eslint/eslint-plugin": "^8.1.0",
+    "@typescript-eslint/parser": "^8.1.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "peerjs": "^1.5.4",
+    "prettier": "^3.3.3",
+    "react": "^18.0.0",
+    "typescript": "^5.0.4"
+  }
+}
