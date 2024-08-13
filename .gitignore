@@ -25,6 +25,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# npm package files
+*.tgz
+
 # random
 node_modules/
 .node_modules/
